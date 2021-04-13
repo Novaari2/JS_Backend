@@ -1,6 +1,7 @@
 // manipulasi array
 const myArray = ["Coklat", 42.5, 22, true, "Programming"];
 
+// menambah nilai array
 myArray.push("Javascript");
 
 console.log(myArray);
@@ -23,8 +24,8 @@ console.log(myArray);
 // delete array hanya menghapus index
 delete myArray[1];
 console.log("==========================");
-console.log(myArray)
+console.log(myArray);
 
 // menghapus elemen dengan splice()
-myArray.splice(2,1); //menghapus dari index 2 sebanyak 1 elemen
+myArray.splice(2, 1); //menghapus dari index 2 sebanyak 1 elemen
 console.log(myArray);
